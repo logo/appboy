@@ -1,0 +1,21 @@
+
+/**
+ * Appboy logo.
+ */
+
+.logo[data-logo="Appboy"] {
+  width: 0;
+}
+
+.logo[data-logo="Appboy"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Appboy"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Appboy"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
